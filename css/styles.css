@@ -1,0 +1,7 @@
+.container {
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: grey;
+  background-image: linear-gradient(blue 50%, yellow 50%);
+}
