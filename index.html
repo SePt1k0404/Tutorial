@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
@@ -13,7 +17,23 @@
       <section>
         <div class="container"></div>
       </section>
+
+      <section class="swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">Slide 1</li>
+          <li class="swiper-slide">Slide 2</li>
+          <li class="swiper-slide">Slide 3</li>
+        </ul>
+      </section>
+
+      <div class="swiper-button-contaier">
+        <div class="swiper-button-prev swiper-button" type="button"></div>
+        <div class="swiper-button-next swiper-button" type="button"></div>
+      </div>
     </main>
     <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>

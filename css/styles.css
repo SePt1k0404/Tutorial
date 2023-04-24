@@ -1,7 +1,26 @@
-.container {
-  height: 500px;
-  width: 800px;
-  margin: 0 auto;
-  background-color: grey;
-  background-image: linear-gradient(blue 50%, yellow 50%);
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-wrapper {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.swiper-slide {
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
+
+.swiper-button-contaier {
+  display: flex;
+  gap: 74px;
+}
+
+.swiper-button {
+  position: relative;
 }
